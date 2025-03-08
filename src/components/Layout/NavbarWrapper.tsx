@@ -19,7 +19,7 @@ export default async function NavbarWrapper() {
       }}
     >
       <NavbarBrand className="gap-5">
-        <Link href="/" className="text-xl font-bold">
+        <Link href="https://thisistim.dev" className="text-xl font-bold">
           {process.env.BLOG_TITLE}
         </Link>
         <ThemeSwitcher />
