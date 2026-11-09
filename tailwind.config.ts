@@ -29,7 +29,7 @@ const config: Config = {
         },
         dark: {
           colors: {
-            background: '#171717',
+            background: '#1e1e1e',
             primary: {
               DEFAULT: '#ffffff',
               500: '#ffffffa0',

@@ -8,7 +8,7 @@ export default async function Home() {
   const data = await getPosts(1);
 
   return (
-    <div className="mx-auto flex h-full max-w-[65ch] flex-col justify-center gap-10">
+    <div className="mx-auto flex h-full max-w-[800px] flex-col justify-center gap-10">
       {(await isAuthor()) ? (
         <Button as={Link} href="/post/new" radius="sm" color="primary">
           New Post

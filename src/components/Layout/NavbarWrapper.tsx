@@ -14,8 +14,11 @@ export default async function NavbarWrapper() {
 
   return (
     <Navbar
+      maxWidth="full"
       classNames={{
         base: 'backdrop-blur-sm border-b border-b-secondary',
+        // Line up with the 800px body column (800px + 20px padding each side)
+        wrapper: 'max-w-[840px] px-5',
       }}
     >
       <NavbarBrand className="gap-5">
